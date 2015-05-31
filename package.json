@@ -1,7 +1,7 @@
 {
   "name": "pillars",
   "description": "Pillars.js web development framework for Node.js",
-  "version": "0.1.1",
+  "version": "0.1.4",
   "author": {
     "name": "Javier Gallego Martín",
     "email": "bifuer@gmail.com"
@@ -44,15 +44,9 @@
   ],
   "dependencies": {
     "colors": "*",
-		"http-proxy":"*",
-    "jade": "*",
-    "marked":"*",
-    "highlight.js":"*",
-    "mongodb": "~2.0",
     "formidable": "*",
     "mime": "*",
     "node-fs":"*",
-    "nodemailer":"*",
 		"crier": "*",
     "procedure": "*",
     "templated": "*",
@@ -80,9 +74,7 @@
     "index.js",
     "lib",
     "languages",
-    "plugins",
-    "static",
-    "templates"
+    "plugins"
   ],
   "readmeFilename": "README.md",
   "license": "MIT"
